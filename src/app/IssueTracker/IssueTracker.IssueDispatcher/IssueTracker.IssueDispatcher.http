@@ -1,0 +1,11 @@
+@IssueTracker.IssueDispatcher_HostAddress = http://localhost:5165
+
+GET {{IssueTracker.IssueDispatcher_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{IssueTracker.IssueDispatcher_HostAddress}}/todos/1
+Accept: application/json
+
+###
