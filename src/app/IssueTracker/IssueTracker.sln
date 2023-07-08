@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssueTracker.Dashboard.Shar
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssueTracker.IssueDispatcher", "IssueTracker.IssueDispatcher\IssueTracker.IssueDispatcher.csproj", "{04309263-5D4E-43E0-8633-7D582C0FA866}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssueTracker.Shared.Contracts", "IssueTracker.Shared.Contracts\IssueTracker.Shared.Contracts.csproj", "{1B4D79E5-0B1C-4C68-B2F6-A089065268D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssueTracker.Shared", "IssueTracker.Shared\IssueTracker.Shared.csproj", "{C105D12F-E7B5-410A-A0F8-357ECDF5E05A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{04309263-5D4E-43E0-8633-7D582C0FA866}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04309263-5D4E-43E0-8633-7D582C0FA866}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04309263-5D4E-43E0-8633-7D582C0FA866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B4D79E5-0B1C-4C68-B2F6-A089065268D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B4D79E5-0B1C-4C68-B2F6-A089065268D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B4D79E5-0B1C-4C68-B2F6-A089065268D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B4D79E5-0B1C-4C68-B2F6-A089065268D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C105D12F-E7B5-410A-A0F8-357ECDF5E05A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C105D12F-E7B5-410A-A0F8-357ECDF5E05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C105D12F-E7B5-410A-A0F8-357ECDF5E05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C105D12F-E7B5-410A-A0F8-357ECDF5E05A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
