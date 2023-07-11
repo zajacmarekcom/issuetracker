@@ -1,0 +1,1 @@
+cat ./performance/issue-dispatching.test.js | docker run --rm -i grafana/k6 run -

@@ -12,4 +12,10 @@
       <ProjectReference Include="..\IssueTracker.Shared\IssueTracker.Shared.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="MassTransit" Version="8.1.0-develop.1419" />
+      <PackageReference Include="MassTransit.EventHub" Version="8.1.0-develop.1419" />
+      <PackageReference Include="MassTransit.RabbitMQ" Version="8.1.0-develop.1419" />
+    </ItemGroup>
+
 </Project>

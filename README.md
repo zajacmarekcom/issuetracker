@@ -24,6 +24,7 @@ It's a demo used in videos on [Marek Zając's Youtube Channel](https://www.youtu
 - Sending notifications by email
 - Integration with Azure Active Directory
 - API Key based access
+- Webhooks support to react on selected issues
 
 ### Non-functional requirements
 
