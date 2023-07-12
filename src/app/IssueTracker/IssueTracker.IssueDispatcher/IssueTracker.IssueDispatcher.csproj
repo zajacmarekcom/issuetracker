@@ -9,13 +9,16 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\IssueTracker.Shared.Contracts\IssueTracker.Shared.Contracts.csproj" />
       <ProjectReference Include="..\IssueTracker.Shared\IssueTracker.Shared.csproj" />
     </ItemGroup>
 
     <ItemGroup>
       <PackageReference Include="MassTransit" Version="8.1.0-develop.1419" />
+      <PackageReference Include="MassTransit.AspNetCore" Version="7.3.1" />
       <PackageReference Include="MassTransit.EventHub" Version="8.1.0-develop.1419" />
       <PackageReference Include="MassTransit.RabbitMQ" Version="8.1.0-develop.1419" />
+      <PackageReference Include="MediatR" Version="12.1.1" />
     </ItemGroup>
 
 </Project>

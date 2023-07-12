@@ -1,8 +1,9 @@
 ﻿using IssueTracker.Shared.Enums;
+using MediatR;
 
 namespace IssueTracker.IssueDispatcher.Requests;
 
-public record IssueRequest(
+public record NewIssueCommand(
     string Title,
     IssueLevel Level,
     DateTimeOffset OccurenceDate,
@@ -11,4 +12,4 @@ public record IssueRequest(
     string? SessionIdentifier = null,
     string? Context = null,
     string? ModuleName = null
-    );
+    ) : IRequest;
