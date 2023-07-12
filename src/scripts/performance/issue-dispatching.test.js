@@ -6,7 +6,7 @@ export const options = {
         issue_perf: {
             executor: 'ramping-vus',
             stages: [
-                { duration: '60s', target: 10 },
+                { duration: '60s', target: 100 },
                 { duration: '30s', target: 0 }
             ]
         }
